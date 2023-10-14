@@ -43,7 +43,7 @@ const splitText = (text) => {
 const baLogo = async (text, left = 0) => {
   const [head, tail] = splitText(text)
   if (!head || !tail) throw new Error('Invalid input text')
-  console.log(head, tail)
+  // console.log(head, tail)
   let width = 32, height = 260
   const top = 208
   /**
