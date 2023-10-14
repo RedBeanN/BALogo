@@ -1,6 +1,6 @@
 # BA Logo
 
-[![NPM Version](https://img.shields.io/npm/v/node-mirai-arknights)](https://www.npmjs.com/package/ba-logo)
+[![NPM Version](https://img.shields.io/npm/v/ba-logo)](https://www.npmjs.com/package/ba-logo)
 
 一个用 `nodejs` 合成蔚蓝档案(Blue Archive)风格 Logo 的简单模块.
 
