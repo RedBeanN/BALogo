@@ -1,11 +1,20 @@
 # BA Logo
 
+[![NPM Version](https://img.shields.io/npm/v/node-mirai-arknights)](https://www.npmjs.com/package/ba-logo)
+
 一个用 `nodejs` 合成蔚蓝档案(Blue Archive)风格 Logo 的简单模块.
 
 <img src='docs/ba.png' height="96px" />
 <img src='docs/ba-cn.png' height="96px" />
 
 ## 用法
+
+```sh
+# use npm
+npm install ba-logo
+# use yarn
+yarn add ba-logo
+```
 
 ```js
 const baLogo = require('ba-logo')
