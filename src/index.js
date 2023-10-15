@@ -63,20 +63,20 @@ const baLogo = async (text, left = 0) => {
     interpolator: sharp.interpolators.nohalo
  }).png()
   const headMeta = await headPart.metadata()
-  comps.push({
-    input: await headPart.toBuffer(),
-    left: width,
-    top,
-  })
-  width += headMeta.width + 12
+  // comps.push({
+  //   input: await headPart.toBuffer(),
+  //   left: width,
+  //   top,
+  // })
+  const w = width + headMeta.width -162
 
-  const dl = width - 174 < 0 ? 0 : width - 174 + left
+  const dl = w < 0 ? 0 : w + left
 
   // height += headMeta.height +8
   const tailPart = sharp({
     text: {
       font, fontfile,
-      text: `<span color="#2b2b2b" size="144pt">${tail}</span>`,
+      text: `<span color="#208ef7" size="144pt">${head}<span color="#2b2b2b" size="144pt">${tail}</span></span>`,
       dpi: 72,
       rgba: true,
     }
