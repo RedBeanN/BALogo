@@ -1,6 +1,6 @@
 {
   "name": "ba-logo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate Blue Archive styled logos",
   "main": "src/index.js",
   "repository": "https://github.com/RedBeanN/BALogo.git",
