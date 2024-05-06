@@ -110,6 +110,7 @@ const baLogo = async (text, left = 0) => {
 
   width += (tailMeta.width < 256 ? 256 : tailMeta.width ) + 64
   height += 144
+  if (width < 500) width = 500
   return sharp({
     create: {
       width, height,
